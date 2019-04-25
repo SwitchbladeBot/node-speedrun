@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.imgur.com/RL2TB9w.png"><br>
+  <img src="https://i.imgur.com/xLLysH0.png"><br>
   <b>Node.js wrapper for the <a href="https://speedrun.com/">Speedrun.com</a> API</b>
   <br><br>
   <p>
