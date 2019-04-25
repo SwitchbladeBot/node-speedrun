@@ -1,6 +1,6 @@
 {
   "name": "node-speedrun",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node.js wrapper for the Speedrun.com API",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SwitchbladeBot/speedrun.js.git"
+    "url": "git+https://github.com/SwitchbladeBot/node-speedrun.git"
   },
   "keywords": [
     "speedrun",
@@ -21,9 +21,9 @@
   "author": "Switchblade Team <support@switchblade.xyz>",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/SwitchbladeBot/speedrun.js/issues"
+    "url": "https://github.com/SwitchbladeBot/node-speedrun/issues"
   },
-  "homepage": "https://github.com/SwitchbladeBot/speedrun.js#readme",
+  "homepage": "https://github.com/SwitchbladeBot/node-speedrun#readme",
   "devDependencies": {
     "docma": "^3.2.2",
     "dotenv": "^7.0.0",

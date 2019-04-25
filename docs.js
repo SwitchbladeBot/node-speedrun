@@ -33,7 +33,7 @@ Docma.create().build({
         {
           iconClass: 'fab fa-lg fa-github',
           label: 'GitHub',
-          href: 'https://github.com/SwitchbladeBot/speedrun.js',
+          href: 'https://github.com/SwitchbladeBot/node-speedrun',
           target: '_blank'
         }
       ]
