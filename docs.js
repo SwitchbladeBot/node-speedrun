@@ -23,7 +23,7 @@ Docma.create().build({
     emoji: true
   },
   src: [
-    { 'node-speedrun': './lib/*.js' }
+    { 'node-speedrun': './lib/**/*.js' }
   ],
   dest: './docs',
   template: {
