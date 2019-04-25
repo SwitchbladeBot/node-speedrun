@@ -6,7 +6,7 @@ const Package = require('./package')
 Docma.create().build({
   app: {
     title: Package.name,
-    base: '/docs',
+    base: '/',
     entrance: 'api:node-speedrun',
     routing: 'query',
     server: Docma.ServerType.STATIC
