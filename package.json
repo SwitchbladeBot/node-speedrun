@@ -1,6 +1,6 @@
 {
   "name": "node-speedrun",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js wrapper for the Speedrun.com API",
   "main": "index.js",
   "scripts": {
