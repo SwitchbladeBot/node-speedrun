@@ -1,0 +1,41 @@
+{
+  "name": "node-speedrun",
+  "version": "1.0.0",
+  "description": "Node.js wrapper for the Speedrun.com API",
+  "main": "index.js",
+  "scripts": {
+    "build-docs": "node docs.js",
+    "test": "standard",
+    "standard-fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SwitchbladeBot/speedrun.js.git"
+  },
+  "keywords": [
+    "speedrun",
+    "speedruncom",
+    "api",
+    "wrapper"
+  ],
+  "author": "Switchblade Team <support@switchblade.xyz>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/SwitchbladeBot/speedrun.js/issues"
+  },
+  "homepage": "https://github.com/SwitchbladeBot/speedrun.js#readme",
+  "devDependencies": {
+    "docma": "^3.2.2",
+    "dotenv": "^7.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.3.0"
+  },
+  "homepage": "https://speedrun.switchblade.xyz/"
+}

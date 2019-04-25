@@ -59,3 +59,9 @@ typings/
 
 # next.js build output
 .next
+
+# JetBrains stuff
+.idea/
+
+# Docma build folder
+docs/
