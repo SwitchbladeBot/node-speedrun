@@ -1,10 +1,10 @@
 {
   "name": "node-speedrun",
-  "version": "1.1.1-0",
+  "version": "1.2.0",
   "description": "Node.js wrapper for the Speedrun.com API",
   "main": "index.js",
   "scripts": {
-    "test-docs": "npm run build-docs && docma serve --source docs.js",
+    "test-docs": "npm run build-docs && docma serve",
     "build-docs": "node docs.js",
     "test": "standard",
     "standard-fix": "standard --fix"
@@ -24,19 +24,18 @@
   "bugs": {
     "url": "https://github.com/SwitchbladeBot/node-speedrun/issues"
   },
-  "homepage": "https://github.com/SwitchbladeBot/node-speedrun#readme",
+  "homepage": "https://speedrun.switchblade.xyz/",
   "devDependencies": {
     "docma": "^3.2.2",
     "dotenv": "^7.0.0",
     "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^8.0.1",
-    "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
     "standard": "^12.0.1"
   },
   "dependencies": {
-    "node-fetch": "^2.3.0"
-  },
-  "homepage": "https://speedrun.switchblade.xyz/"
+    "node-fetch": "^2.6.0"
+  }
 }
