@@ -5,7 +5,7 @@ const Package = require('./package')
 
 Docma.create().build({
   app: {
-    title: Package.name,
+    title: `${Package.name}: Node.js wrapper for the Speedrun.com API`,
     base: '/',
     entrance: 'api:node-speedrun',
     routing: 'query',
