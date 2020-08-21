@@ -4,7 +4,7 @@
   "description": "Node.js wrapper for the Speedrun.com API",
   "main": "index.js",
   "scripts": {
-    "test-docs": "npm run build-docs && docma serve",
+    "test-docs": "npm run build-docs && docma serve ./docs/",
     "build-docs": "node docs.js",
     "test": "standard",
     "standard-fix": "standard --fix"
