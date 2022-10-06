@@ -1,6 +1,6 @@
 {
   "name": "node-speedrun",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Node.js wrapper for the Speedrun.com API",
   "main": "index.js",
   "scripts": {
@@ -36,6 +36,6 @@
     "standard": "^12.0.1"
   },
   "dependencies": {
-    "node-fetch": "^2.6.0"
+    "axios": "^1.0.0"
   }
 }
